@@ -9,8 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Minha primeira ação"
+        #working-directory: 
+        #shell:
         run: echo "Hello world!!!!!!!!!!!!!!!!!!!"
+        
       - name: "Segunda ação"
         run: |
           echo "O seu primeiro workflow está foi criado"
           echo "Sucesso"
+          cat /etc/os-release
