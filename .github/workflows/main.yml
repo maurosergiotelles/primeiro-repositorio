@@ -18,3 +18,10 @@ jobs:
           echo "O seu primeiro workflow está foi criado"
           echo "Sucesso"
           cat /etc/os-release
+  segundo-job:
+    name: "Instalação do ambiente NodeJS"
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: "Verificação da versão do NodeJS atual"
+        run: node --version
+    
