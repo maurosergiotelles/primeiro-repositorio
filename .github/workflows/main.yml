@@ -11,7 +11,7 @@ jobs:
       - name: "Minha primeira ação"
         #working-directory: 
         #shell:
-        run: echo "Hello world!!!!!!!!!!!!!!!!!!!"
+        run: ech "Hello world!!!!!!!!!!!!!!!!!!!"
         
       - name: "Segunda ação"
         run: |
